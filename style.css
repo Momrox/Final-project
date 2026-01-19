@@ -160,7 +160,10 @@ features
     padding: 80px 0;
 }      
 
-
+#features .row {
+    display: flex;
+    flex-direction: column;
+}
 
 .section__description {
     display: flex;
@@ -180,7 +183,7 @@ features
     display: flex;
     align-items: center;
     justify-content: center;
-    width: calc(100% / 3);
+    width: 25%;
     
 }
 .feature__description{
@@ -204,7 +207,7 @@ features
     
    margin-bottom: 8px;
    border-radius: 4px;
-    overflow: hidden;
+   
     display: flex;
     
 }
