@@ -179,6 +179,13 @@ features
    
 
 }
+.features__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .feature {
     padding: 24px;
     display: flex;
