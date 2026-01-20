@@ -172,9 +172,10 @@ features
     
 }
 
-.features{
+.features {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 40px;
    
 
 }
@@ -183,10 +184,10 @@ features
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 25%;
+    width: calc(100% / 3);
     
 }
-.feature__description{
+.feature__description {
     display: flex;
     flex-direction: column;
 }
@@ -215,14 +216,16 @@ features
 .feature__title {
     font-size: 16px;
     margin-bottom: 8px;
-    font-weight: 400;
+    font-weight: 700;
     
     
     
 }
 .feature__para {
     text-align: center;
+    font-weight: 400;
 }
+
 .feature__title:hover {
     text-decoration: underline;
     cursor: not-allowed;
@@ -270,6 +273,7 @@ WORK
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    
 
    
  }
