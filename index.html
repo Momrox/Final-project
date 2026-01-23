@@ -10,12 +10,16 @@
 <body>
 
 <section id="landing">
-    
-        <nav>
-            <div class="nav__container">
+    <div class="container landing--container">
+        <div class="row">
+       
+            <div class="nav">
+                <a href="#" class="logo__link">
 <img class="logo" src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="">
+</a>
 
-<ul class="nav__links">
+<div class="nav__links">
+    <ul>
     <li><a href="#" class="nav__link">About</a></li>
     <li><a href="#" class="nav__link">Blog</a></li>
      <li><a href="#" class="nav__link">Pricing</a></li>
@@ -23,36 +27,41 @@
     <li><a href="#" class="nav__link">Login</a></li> 
     <li><a href="#" class="nav__link nav__link--primary">Sign Up</a></li>
     </ul>
+    </div>
                 </nav>
         </section>
-        <section>
+
+      
+        <section id="landing">
             <header>
                     <div class="container">
-                    <div class="row">
-                 
+                    <div class="row__landing--main">
+                 <div class="landing__left--text">
                    <h1>Beautiful React Templates <span class="purple">for you.</span></h1> 
                   
-                   <p class="subheader">Our templates are easy to setup, understand and customize. Fully
+                   <p class="landing__para">Our templates are easy to setup, understand and customize. Fully
                     modular components with a variety of pages and components.
                    </p>
-                   </div>
+                   <div class="input__wrapper">
                                     
                    <a href="email">
                     <input type="text" class="email__input"
                     placeholder="Your E-mail Address">
-                    <button class="email__btn">Get Started</button>
+                    <button class="btn__get-started">Get Started</button>
                    </a>
-                   
-                    <p >OUR TRUSTED CUSTOMERS</p>
-                     </div>
-                    
-                    <img src="./assets/customers-logo-strip.680ac7c2e8ae28161d2c.png"></img>
                     </div>
-                    <div>
-                    <figure >
+                   <div class="customer__wrapper">  
+                    <p >OUR TRUSTED CUSTOMERS</p>
+                                   
+                    <img src="./assets/customers-logo-strip.680ac7c2e8ae28161d2c.png"></img>
+                          </div>              
+                    
+                    <figure class="img__landing--wrapper">
                      <img src="/assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="home page image">
                   </figure>
-                               
+                    </div>
+                   </div>
+                 </div>             
                 </div>
                 </div>
         
@@ -60,7 +69,7 @@
                 </section>
  
  
-<main>
+
     <section id="features">
         <div class="container">
             <div class="row__narrow">
@@ -150,22 +159,42 @@
 
     </div>       
        </section>
-        
+    <section id="quality">
+            <div class="container">
+                <div class="row">
+                     <div class="quality__left--text">
+                <div>
+                    <h2><span class="purple">Quality Work</span></h2>
 
-  <section id="quality">
+                </div>
+                <div>
+                <h1>Designed & Developed by <span class="purple">Professionals</span></h1></div>
+            
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum sapiente quas voluptatum incidunt quibusdam eum nesciunt repellendus voluptates placeat sed inventore, reiciendis ex repudiandae ducimus magni quasi harum impedit maxime.</p>
+         <a href="#features">
+                    <button class="btn">Learn More</button>
+                   </a>
+<figure class="img__quality--wrapper">
+                   <img src="assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg">
+                   </figure>
+        </section>    
+
+  <section id="easy">
 <div class="container">
     <div class="row__narrow">
-<div>
+        <figure class="img__quality--wrapper">
+                   <img src="assets/hero-screenshot-2.241aac1fbc66db29d873.png">
+                   </figure>
+        <div class="easy__right--text">
+
         <h2><span class="purple">Steps</span></h2>
-    <div>  
+      
     
 <h1 class="easy">
    Easy to  <span class="purple">Get Started</span>
 </h1>
-</div>
-    </div>
-    </div>
     
+      
      <div class="register">
        Register
         </div>
@@ -194,15 +223,16 @@
 <div class="container">
     <div class="row">
         <div>
-        <h2 class="section__title">
-  <span class="purple">Values</span>
+        <h2 class="section__title">Values
 </h2>
     </div>
     </div>
     
       <div>
         <h1>We Always Abide by Our <span class="purple">Principles</span></h1>
-     </div>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi omnis expedita cupiditate inventore in corrupti natus, laboriosam commodi magnam, sunt fugiat. Aperiam blanditiis deserunt a minus voluptates accusantium! Temporibus, labore!</p>
+    </div>
+
      <div class="affordable">
        Affordable
           <p>
@@ -219,6 +249,9 @@
           <a href="#features">
                     <button class="btn">Learn More</button>
                    </a>
+                   <figure class="img__quality--wrapper">
+                   <img src="assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg">
+                   </figure>
 </div>
 </div>
 </div>
@@ -228,7 +261,7 @@
 <div class="container">
     <div class="row">
         <h2 class="section__title">
-            <div>
+            
   <span class="purple">PRICING</span>
   </h2>
 </div>
@@ -251,14 +284,17 @@
 <div class="container">
     <div class="row">
         
-        <h2 class="section__title">
-  <h1>Our Clients <span class="purple">Love Us. </span></h1>
-</h2>
+        <h2 class="section__title"  span class="purple">TESTIMONIALS>
+  </h2>
+<h1>Our Clients <span class="purple">Love Us. </span></h1>
 </div>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio velit sit a, magni excepturi quaerat ea perferendis voluptate repudiandae tempora perspiciatis ipsum eius maiores, expedita autem dolorem, eveniet nulla recusandae!</p>
 
 </div>
 </div>
+ <figure class="img__quality--wrapper">
+                   <img src="assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg">
+                   </figure>
 </section>
 
 
