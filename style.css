@@ -36,10 +36,11 @@ main {
 }
 p {
     line-height: 1.5;
+    font-size: 18px;
 
 }
 h1 {
-    font-size: 40px;
+    font-size: 48px;
     color: #242424;
     margin-bottom: 16px;
 
@@ -194,20 +195,21 @@ HEADER / ABOUT US ↓
 
 */
 
-header .row {
+.container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
 }
-.landing__main {
-    padding: 96px;
+.row__landing--main {
+    padding: 64px;
     display: flex;
 }
 .landing__left--text {
     display: flex;
     flex-direction: column;
     width: 40%;
-    padding: 40px 0;
+    
+    padding: 20px 0;
 }
 .landing__para {
     color: #243e63;
@@ -239,16 +241,28 @@ input {
        width: 10%;
 
     }
-.img__landing--wrapper {
-    
-    width: 60%;
-    padding: 0 60px;
-}
+
 .customer__wrapper {
-    margin-top: 80px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
 }
+.right__img {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-top: 40px;
+       
+}
+.first {
+    display: flex;
+    flex-direction: column;
+
+   
+}
+
+
+
 
 /* 
 
@@ -357,9 +371,15 @@ QUALITY WORK ↓
     padding: 40px 0;
 }
 .img__quality--wrapper {
+    display: flex;
+   
+
     
-    width: 40%;
-    padding: 0 40px;
+}
+.second {
+    width: 500px;
+    height: 500px;
+   
 }
 
 /* 
@@ -380,7 +400,11 @@ STEPS ↓
     padding: 40px 0;
 
 }
-.img__--wrapper
+.third {
+   width: 500px;
+    height: 500px; 
+}
+
 
 
 /* 
@@ -388,12 +412,37 @@ STEPS ↓
 VALUES ↓
 
 */
-
-
 #values .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row__values {
+    display: flex;
+
+
+}
+.values {
+    width: 40%;
+}
+.types {
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+    
+    
+    padding: 20px 0;
+}
+
+.fourth {
+   width: 500px;
+    height: 500px; 
 }
 
 
@@ -402,12 +451,40 @@ VALUES ↓
 PRICING ↓
 
 */
-
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 #pricing .row {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
 }
+.plan__wrapper {
+  
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.types__plans {
+    background-color: rgb(226, 137, 137);
+    padding: 10px;
+    font-size: 12px;
+    border: 5px;
+    color: black;
+    border-radius: 20px;
+    
+    height: 300px;
+   
+}
+
+
+
 
 /* 
 
@@ -418,7 +495,10 @@ TESTIMONIALS ↓
 #testimonials .row {
     display: flex;
 }
-
+.fifth {
+   width: 500px;
+    height: 500px; 
+}
 
 /* 
 
