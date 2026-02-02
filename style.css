@@ -320,7 +320,7 @@ FEATURES ↓
     padding: 24px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-content: flex-start;
     width: calc(100% / 3);
     
@@ -386,13 +386,14 @@ WORK
 }      
 .row__quality {
     display: flex;
+    padding-top: 24px;
 }
 
 .quality__container {
      display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 15px;
+    gap: 35px;
     width: 100%;
     max-width: 1200px;
     padding-top: 24px;
@@ -402,9 +403,9 @@ WORK
 .quality__text {
     display: flex;
     flex-direction: column;
-    align-items: column;
-        width: 40%;
-    
+    align-items: center;
+    width: 40%;
+
     }
     .quality__para {
         font-size:24px;
@@ -412,17 +413,22 @@ WORK
     }
 .btn {
     padding-top: 24px;
-    font-size: 28px;
+    font-size: 24px;
     
 }
  
 .img__quality--wrapper {
     display: flex;
    flex-direction: row;
+   align-items: start;
    width: 60%;
-   padding-bottom: 24px;
+   gap: 32px;
+   padding-bottom: 20px;
+   border: 10px solid black;
        
 }
+
+
 
 
 
@@ -440,28 +446,60 @@ STEPS ↓
 .container__steps {
      display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 15px;
+    gap: 10px;
     width: 100%;
     max-width: 1200px;
     padding-top: 24px;
+    
 }
 .img__easy--wrapper {
     display: flex;
-   flex-direction: row;
-   width: 60%;
+    align-items: start;
+   width: 40%;
    padding-bottom: 24px;
-       
 }
-.easy__right--text {
-      display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 40%;
-    padding: 10px;
+.easy__title {
+    display: flex;
     
+   
+    align-items: start;
+    font-size: 35px;
+    gap: 35px;
+    color: #243e63;
+  
+} 
+.easy__description {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    max-width: 1200px;
+    
+} 
+.easy__para {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    
+    
+ 
+}  
 
-}
+.easy__steps--wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}  
+.grey {
+    color: #9f9c9c;
+    
+} 
+
+
 
 
 /*
