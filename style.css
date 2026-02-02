@@ -445,11 +445,7 @@ STEPS ↓
 
 #steps .row {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+    
 }
 .container__steps {
      display: flex;
@@ -460,6 +456,15 @@ STEPS ↓
     padding-top: 24px;
     
 }
+.row__steps {
+     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .img__easy--wrapper {
     display: flex;
     align-items: start;
@@ -490,7 +495,7 @@ STEPS ↓
    font-weight: 300;
     text-align: center;
     padding-top: 25px;
-    
+
     
     
  
