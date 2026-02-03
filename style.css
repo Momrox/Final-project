@@ -67,10 +67,11 @@ h2 {
     margin: 16px 0 24px 0;
 }
 button {
-    background-color: #7342d6;
+    display: flex;
+    background-color: #6e4dd9;
     color: white;
     border: none;
-    padding: 8px 16px;
+    padding: 8px 24px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 50px;
@@ -429,7 +430,7 @@ WORK
    width: 60%;
    gap: 32px;
    padding-bottom: 20px;
-   border: 10px solid black;
+   
        
 }
 
@@ -447,6 +448,7 @@ STEPS ↓
     display: flex;
     
 }
+
 .container__steps {
      display: flex;
     flex-wrap: wrap;
@@ -465,16 +467,18 @@ STEPS ↓
     margin: 0 auto;
 }
 
-.img__easy--wrapper {
+.img__steps--wrapper {
     display: flex;
     align-items: start;
-   width: 50%;
+   max-width: 50%;
    padding-bottom: 24px;
 }
+.steps__img {
+   width: 100%;    
+
+}
 .step__title {
-    display: flex;
     
-   
     align-items: start;
     font-size: 35px;
     gap: 35px;
@@ -482,22 +486,18 @@ STEPS ↓
   
 } 
 .step__description {
-    display: flex;
-    
-    flex-direction: column;
+    display: flex;   flex-direction: column;
     align-items: flex-start;
     width: 50%;
     max-width: calc(100% / 2);
+   
 
     
 } 
 .step__para {
    font-weight: 300;
     text-align: center;
-    padding-top: 25px;
 
-    
-    
  
 }  
 
@@ -508,6 +508,7 @@ STEPS ↓
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+   
 }  
 .grey {
     color: #9f9c9c;
@@ -529,27 +530,64 @@ VALUES ↓
     
 }
 
-.value__container {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 .row__values {
     display: flex;
+    flex-wrap: wrap;
 
 
+}  
+   
+
+.value_container {
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+    width: 100%;
+    max-width: 1200px;
+    
 }
+
+
 .values {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     width: 40%;
-}
-.types {
-        display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 15px;
+
+    }
+    .value__para {
+        font-size:24px;
+        color: #243e63;
+    }
+.value__text {
     
-    
-    padding: 20px 0;
+    font-weight: 400;
+    max-width: 30%;
 }
+.value__para {
+
+    font-weight: 500;
+    color: #243e63;
+}
+.btn {
+    padding-top: 24px;
+    font-size: 18px;
+    
+}
+ 
+.img__value--wrapper {
+    display: flex;
+   
+   align-items: center;
+   width: 60%;
+   gap: 32px;
+   padding-bottom: 40px;
+  
+       
+}
+
 
 
 
@@ -564,7 +602,7 @@ PRICING ↓
     flex-wrap: wrap;
     
 }
-#pricing .row {
+#plans .row {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -573,21 +611,43 @@ PRICING ↓
 .plan__wrapper {
   
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+    align-content: center;
+    width: calc(100% / 3);
     max-width: 1200px;
     margin: 0 auto;
+    gap: 16px;
+    
 }
 
 .plan {
     display: flex;
     width: calc(100% / 3);
     flex-direction: column;
+    border: 3px solid black;
+    padding: 24px;
+    border-radius: 15px;
    
 }
-PRICE
-*/
 
+.plan__type {
+color: black;
+}
+
+
+.plan__price {
+    font-size: 48px;
+    color: black;
+    padding-bottom: 16px;
+    font-weight: 700;
+}
+.lightgrey {
+    color: lightgrey;
+    font-size: 24px;
+    }
+    plan__type {
+        color: black;
+        font-size: 12px;
+    }
 
 #price {
     padding: 80px 0;
@@ -602,12 +662,7 @@ PRICE
     
 }
 
-.price__description{
-    display: flex;
-    flex-wrap: wrap;
-   
 
-}
 .price {
     padding: 24px;
     display: flex;
