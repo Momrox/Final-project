@@ -22,9 +22,7 @@ margin: 0 auto;
     max-width: 1024px;
     margin: 0 auto;
 }
-.container {
-    padding: 96px 0;
-}
+
 .purple {
     color: #6415ff;
 }
@@ -450,12 +448,12 @@ STEPS ↓
 }
 
 .container__steps {
-     display: flex;
+      display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    
     width: 100%;
     max-width: 1200px;
-    padding-top: 24px;
+  padding: 32px 0 48px 0;
     
 }
 .row__steps {
@@ -486,9 +484,10 @@ STEPS ↓
   
 } 
 .step__description {
-    display: flex;   flex-direction: column;
+    display: flex;   
+    flex-direction: column;
     align-items: flex-start;
-    width: 50%;
+    width: 60%;
     max-width: calc(100% / 2);
    
 
@@ -546,6 +545,7 @@ VALUES ↓
     gap: 35px;
     width: 100%;
     max-width: 1200px;
+    margin: 0 auto;
     
 }
 
@@ -598,8 +598,12 @@ PRICING ↓
 
 */
 .container {
-    display: flex;
+        display: flex;
     flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 48px;
     
 }
 #plans .row {
@@ -701,14 +705,11 @@ TESTIMONIALS ↓
     
 }
 
-.testimonial__title {
-    font-size: 24px;
-    font-weight: 500;
-}
+
 .img__testimonial--wrapper {
     display: flex;
     align-items: start;
-   max-width: 50%;
+   max-width: 100%;
    padding-bottom: 24px;
 }
 .testimonial__wrapper {
@@ -724,8 +725,9 @@ TESTIMONIALS ↓
    width: 100%;    
 
 }
-.testimonial__title {
-    
+.testimonial__title--wrapper {
+    width: 100%;
+    max-width: 40%;
     align-items: start;
     font-size: 45px;
     gap: 35px;
@@ -763,12 +765,16 @@ TESTIMONIALS ↓
    
 }  
 .testimonial__ratings {
-  margin-bottom: 16px;
-color: #fabf2a;
+  color: gold; 
+  padding-bottom: 16px;
 }
-
 .testimonial__img--user {
-border-radius: 50%;
+
+padding-bottom: 50px;
+
+}
+.testimonial__user--name {
+    font-weight: 700;
 
 }
 
@@ -781,12 +787,25 @@ START / CALL TO ACTION ↓
 
 
 #start .row {
-    position: relative;
-    overflow: hidden;
-    padding-top: 1200px;
-    display: flex;
-    justify-content: center;
+   display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     
+}
+.call__to__action--container {
+     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 24px;
+}
+#call__to__action {
+    color: pink;
+
 }
 
 .contact--wrapper {
@@ -796,6 +815,7 @@ START / CALL TO ACTION ↓
     
 
 }
+
 .contact {
     color: white;
 }
