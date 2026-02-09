@@ -8,14 +8,14 @@
      <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<section id="landing">
+<main>
+<nav id="nav_landing">
     <div class="container landing--container">
         <div class="row">
        
             <div class="nav">
                 <a href="#" class="logo__link">
-<img class="logo" src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="">Treact
+<img class="logo" src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt=""> Treact
 </a>
 
 <div class="nav__links">
@@ -28,8 +28,11 @@
     <li><a href="#" class="nav__link nav__link--primary">Sign Up</a></li>
     </ul>
     </div>
+            </div>
+        </div>
+    </div>
                 </nav>
-        </section>
+        
 
       
         <section id="landing">
@@ -54,7 +57,7 @@
                     <p >OUR TRUSTED CUSTOMERS</p>
                                  
                     <img src="./assets/customers-logo-strip.680ac7c2e8ae28161d2c.png"></img>
-                   </a>
+                   
                    </div>
                    </div>
                   </div>        
@@ -68,8 +71,7 @@
                     </div>
                    </div>
                  </div>             
-                </div>
-                </div>
+                
         
                 </header>
                 </section>
@@ -85,7 +87,7 @@
 
 <h1>We Have Amazing<span class="purple"> Service.</span></h1>
 <div class="section__para">
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui consequuntur officia nam ea vel temporibus praesentium, cupiditate, pariatur illum voluptates reiciendis. Sunt iste et hic dolorum ad odit quos doloremque!</p>
+<p class="feature__para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui consequuntur officia nam ea vel temporibus praesentium, cupiditate, pariatur illum voluptates reiciendis. Sunt iste et hic dolorum ad odit quos doloremque!</p>
 </div>
 <div class="section__description"> 
 </div>
@@ -106,7 +108,7 @@
                 </p>
                 </div>
             </div>
-    
+
         
             <div class="feature">
                     <figure class="image__wrapper">
@@ -188,13 +190,11 @@
                 
             
 <figure class="img__quality--wrapper">
-                   <img src="assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg">
+                   <img src="assets/hero-screenshot-1.40a097b525c2f8c9808e.png">
                    </figure>
+                   
             </div>
-            </div>
-        </div>
-    
-        
+            </div>      
             
         </section>  
         
@@ -267,7 +267,7 @@
           We promise to offer you the best rate we can - at par with the industry standard.
         </p>
    </div>
-   
+
    <i class="fa-solid fa-suitcase"></i>
      <div class="value__text">
       <h3> Professionalism</h3>
@@ -285,7 +285,7 @@
                    
                    <div>
                    <figure class="img__--wrapper">
-                   <img class="fourth" src="assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg">
+                   <img src="assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg">
                    </figure>
                    </div>
                    
@@ -297,70 +297,80 @@
 
       
 <section id="plans">
-<div class="container">
-    <div class="plans .row">
-        <h2 class="plan__title">
-            
-  <span class="purple">PRICING</span>
-  </h2>
-</div>
-<h1>Reasonable & Flexible <span class="purple">Plans.</span></h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ab ut sapiente voluptatem quasi repellendus fugit possimus consequuntur praesentium. Praesentium accusantium enim quam vel repellendus. Omnis quidem atque dignissimos reprehenderit.</p>
-</div>
+   
+ <div class="plan__container">
+    <div class="row__plan">
+        <div class="plan">
+    <h3 span class="purple">PRICING
+     </h3>
+      
+        <h1>Reasonable & Flexible <span class="purple">Plans</span></h1>
+     <p class="price__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi omnis expedita cupiditate inventore in corrupti natus, laboriosam commodi magnam, sunt fugiat. Aperiam blanditiis deserunt a minus voluptates accusantium! Temporibus, labore!</p>
+        
+        </div>
+
 <div class="plan__wrapper">
-<div class="plan">
-    <h2 class="plan__time">Personal</h2>
+<div class="plans">
+    <div class="plan__top"></div>
+    <h2 class="plan__name">Personal</h2>
     <p class="plan__price">$17.99</p>
-    <h4><span class="lightgrey">MONTHLY</span></h4>
-    <div>For Individuals
-        <p>30 Templates</p>
-        <p> 7 Landing Pages</p>
-        <p> 12 Internal Pages</p>
-        <p> Basic Assistance</p>
+    <p class="plan__time"><span class="lightgrey">MONTHLY</span></p>
+    <div class="plan__middle">
+        <div class="plan__types">For Individuals
+        <p class="plan__type">30 Templates</p>
+        <p class="plan__type"> 7 Landing Pages</p>
+        <p class="plan__type"> 12 Internal Pages</p>
+        <p class="plan__type"> Basic Assistance</p>
+        </div>
     </div>
-    <div>
-          <a href="#features">
-                    <button class="btn">Buy Now</button>
+        <div class="plan__btn">
+                    <button class="btn__small">Buy Now</button>
+        
+                </div>
+</div>
+
+<div class="plans">
+    <div class="plan__top"></div>
+<h2 class="plan__name">Business</h2>
+<p class="plan__price">$37.99</p>
+<p class="plan__time"><span class="lightgrey">MONTHLY</span></p>
+ <div class="plan__middle">
+    <div class="plan__types">For Small Businesses
+        <p class="plan__type"> 60 Templates</p>
+        <p class="plan__type"> 16 Landing Pages</p>
+        <p class="plan__type"> 22 Internal Pages</p>
+        <p class="plan__type"> Priority Assistance</p>
+    </div>
+ </div>
+</div>
+    <div class="plan__btn">
+
+                    <button class="btn__today">Buy Now</button>
                    
                 </div>
-</div>
-<div class="plan">
-<h2 class="plan__time">Business</h2>
-<p class="plan__price">$37.99</p>
-<h4 span class="lightgrey">MONTHLY</span></h4>
- <div>For Individuals
-    
-        <p> 60 Templates</p>
-        <p> 16 Landing Pages</p>
-        <p> 22 Internal Pages</p>
-        <p> Priority Assistance</p>
-    </div>
-    <div>
 
-          <a href="#features">
-                    <button class="btn">Buy Now</button>
-                   </a>
-                </div>
-</div>
-<div class="plan">
-<h2 class="plan__time">Enterprise</h2>
-<p class="plan__price">57.99</p>
-<h4 span class="lightgrey">MONTHLY</span></h4>
- <div>For Enterprise
-        <p> 90 Templates</p>
-        <p> 27 Landing Pages</p>
-        <p> 37 Internal Pages</p>
-        <p> Personal Assistance</p>
+
+<div class="plans">
+    <div class="plan__top"></div>
+<h2 class="plan__name">Enterprise</h2>
+<p class="plan__price">$57.99</p>
+<p class="plan__time"><span class="lightgrey">MONTHLY</span></p>
+ <div class="plan__middle">
+    <div class="plan__types">For Large Companies
+        <p class="plan__type"> 90 Templates</p>
+        <p class="plan__type"> 27 Landing Pages</p>
+        <p class="plan__type"> 37 Internal Pages</p>
+        <p class="plan__type"> Personal Assistance</p>
     </div>
-     <div>
-          <a href="#features">
-                    <button class="btn">Buy Now</button>
-                   </a>
-                </div>
+ </div>
 </div>
-     </div>
-</div>
-    </div>
+    
+       <div class="plan__btn">
+                    <button class="btn__tomorrow">Buy Now</button>
+                
+                </div></div></div></div>
+
+
 </section>
 
 
@@ -375,19 +385,19 @@
 
               
         <div class="testimonial__title--wrapper">
+            <div class="testimonial__title">
         <h3> <span class="purple">TESTIMONIALS </span> </h3>
     
 <h1>Our Clients <span class="purple">Love Us. </span></h1>
 <p class="testimonial__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio velit sit a, magni excepturi quaerat ea perferendis voluptate repudiandae tempora perspiciatis ipsum eius maiores, expedita autem dolorem, eveniet nulla recusandae!</p>
-  <div class="testimonial--text">  
+   
 <div class="testimonial__ratings">
     <i class="fas fa-star"></i>
     <i class="fas fa-star"></i>
     <i class="fas fa-star"></i>
     <i class="fas fa-star"></i>
     <i class="fas fa-star"></i>
-    
-</div>
+           
 
 <h3>Amazing User Experience</h3>
 <p class="testimonial__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nostrum natus deserunt veniam sed, harum dolorem molestiae quasi tenetur nobis nesciunt quod et maxime iusto nulla eius cumque quibusdam at.</p>
@@ -396,13 +406,14 @@
     <img src="assets/photo-1494790108377-be9c29b29330.avif">
 
 </figure> 
-<p class="testimonial__user--name">Charlotte Hale</p>
-<p class="testimonial__user--role">Director, Delos Inc.</p>
+<p class="testimonial__name">Charlotte Hale</p>
+<p class="testimonial__role">Director, Delos Inc.</p>
 </div>
-</div>
-    </div>
-</div>
-</div>
+        </div>
+        </div>
+    
+
+
 
 
 </section>
@@ -417,8 +428,8 @@
             <div class="call__to__action--text">
 <h2>Developers all over the world are happily using Treact. </h2>
 
- 
-          <a href="#call__to__action--btn">
+ <div class="call__to__action--btns">
+          <a href="#call__to__action">
                     <button class="btn">Get Started</button>
                    </a>
                 
@@ -426,8 +437,11 @@
           <a href="#contact us">
                     <button class="btn">Contact Us </button>
                    </a>
-                
-
+ </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 </main>
@@ -449,7 +463,7 @@
         <li>Business</li>
         <li>Team</li>
     </ul>
-</div>
+
 <div class="contact">PRESS</div>
 <ul>
     <li>Logos</li>
@@ -473,12 +487,7 @@
     <li>Terms of Service</li>
     <li>Disclaimer</li>
 </ul>
-</div>
-</div>
-</div>
 
-
-</div>
 </footer>
 
    
