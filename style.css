@@ -627,17 +627,22 @@ PRICING ↓
    width: 100%;
    flex-direction: column;
    align-items: center;
-   justify-content: center;
+  
 
 }
 .plans {
     display: flex;
-flex-direction: column;
-align-items: center;
+    flex-direction: column;
+    align-items: center;
     gap: 10px;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-right: 20px;
     
 }
 .price__para {
@@ -646,7 +651,7 @@ align-items: center;
 }
 .plan__wrapper {
 display: flex;
-flex-direction: column;
+flex-direction: row;
 align-items: center;
 justify-content: center;
 
@@ -658,6 +663,7 @@ justify-content: center;
     align-items: center;
     width: 100%;
     padding-top: 40px;
+    
 }
 .plan__name {
     font-size: 20px;
@@ -674,11 +680,7 @@ justify-content: center;
     font-weight: bold;
     padding-bottom: 18px;
 }
-.plan__top {
-    display: flex;
-    flex-direction: column;
-    align-items: center;;
-}
+
 .plan__middle {
     display: flex;
     flex-direction: column;
@@ -757,8 +759,11 @@ TESTIMONIALS ↓
     max-width: 1200px;
     padding-top: 24px;
 }
-.testimonials__img--user {
-   width: 60%;    
+.testimonial__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;   
 
 }
 .testimonial__title--wrapper {
@@ -774,8 +779,7 @@ TESTIMONIALS ↓
     display: flex;   
     flex-direction: column;
     align-items: flex-start;
-    width: 50%;
-    max-width: calc(100% / 2);
+    padding-left: 64px;
        
 } 
 
@@ -796,12 +800,16 @@ TESTIMONIALS ↓
 .testimonial__ratings {
  
   padding-bottom: 16px;
-  color: gold;
+ 
+}
+.fa-star {
+    color: gold;
+    padding-bottom: 16px;
 }
 .testimonial__name {
 font-size: 48px;
 font: 400;
-padding-bottom: 50px;
+padding-bottom: 8px;
 
 
 }
@@ -837,6 +845,7 @@ START / CALL TO ACTION ↓
     max-width: 1200px;
     padding-top: 24px;
 }
+/*
 #call__to__action {
     
 
@@ -855,9 +864,7 @@ START / CALL TO ACTION ↓
 
 }
 
-.contact {
-    
-}
+.contact 
 
 /* 
 
