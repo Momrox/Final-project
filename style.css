@@ -594,7 +594,6 @@ VALUES ↓
     }
  
 .value__text {
-        
     font-weight: 400;
     max-width: 30%;
 }
@@ -609,12 +608,18 @@ VALUES ↓
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
    align-items: center;
    width: calc(60% / 2);
      padding-bottom: 40px;
   
        
+}
+.value__img--wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     gap: 32px;
 }
 
 
@@ -754,7 +759,7 @@ TESTIMONIALS ↓
 */
 
 
-.container__testimonials {
+.testimonial__container {
      display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -941,6 +946,7 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
+    font-weight: 700;
 
 }
 .type__main {
@@ -955,6 +961,7 @@ footer {
     flex-direction: column;
     align-items: center;
     color: white;
+    gap: 16px
 }
 .type__product {
 display: flex;
@@ -968,6 +975,7 @@ color: white;
     flex-direction: column;
     align-items: flex-start;
     color: white;
+    gap: 16px;
 }
 .type__press {
     display: flex;
@@ -981,6 +989,7 @@ color: white;
     flex-direction: column;
     align-items: flex-start;
     color: white;
+    gap: 16px;
 }
 .type__team {
    display: flex;
@@ -994,6 +1003,7 @@ color: white;
   flex-direction: column;
     align-items: flex-start;  
     color: white;
+    gap: 16px;
 }
 .type__legal {
     display: flex;
