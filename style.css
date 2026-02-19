@@ -105,9 +105,12 @@ li {
 NAVBAR ↓
 
 */
-nav {
+.nav {
     display: flex;
+    flex-direction: flex-end;
+    justify-content: space-around;
     padding-top: 32px;
+    
 }
 
 .nav__container {
@@ -115,7 +118,7 @@ nav {
     max-width: 100%;
     width: 100%;
     justify-content: flex-end;
-    align-items: ;
+    
     margin: 0 auto;
     
 }
@@ -131,6 +134,11 @@ nav {
     font-weight: 700;
     text-decoration: none;
 }
+.company {
+    font-weight: 700;
+    
+}
+
 .btn__menu {
     display: none;
     background: transparent;
@@ -190,15 +198,7 @@ nav {
     top: 24px;
     right: 18px;
 }
-.nav__container {
-    display: flex;
-    max-width: 100%;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    
-}
+
 .logo {
     width: 60px;
     height: 60px;
@@ -782,7 +782,7 @@ TESTIMONIALS ↓
 
 .img__testimonial--wrapper {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     max-width: 100%;
     max-width: 1200px;
     padding-bottom: 24px;
@@ -822,6 +822,7 @@ TESTIMONIALS ↓
     color: #243e63;
   
 } 
+
 .testimonial__description {
     display: flex;   
     flex-direction: column;
@@ -908,6 +909,9 @@ START / CALL TO ACTION ↓
     flex-direction: row;
     gap: 16px;
 
+}
+.start {
+    
 }
 
 /* 
