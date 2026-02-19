@@ -107,18 +107,16 @@ NAVBAR ↓
 */
 .nav {
     display: flex;
-    flex-direction: flex-end;
-    justify-content: space-around;
-    padding-top: 32px;
-    
-}
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 40px;    
+    }
 
 .nav__container {
     display: flex;
     max-width: 100%;
     width: 100%;
     justify-content: flex-end;
-    
     margin: 0 auto;
     
 }
@@ -135,8 +133,16 @@ NAVBAR ↓
     text-decoration: none;
 }
 .company {
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 900;
+    align-items: center;
     
+    
+}
+.logo {
+    width: 60px;
+    height: 60px;
+
 }
 
 .btn__menu {
@@ -199,10 +205,11 @@ NAVBAR ↓
     right: 18px;
 }
 
-.logo {
-    width: 60px;
-    height: 60px;
 
+.nav__links {
+    display: flex;
+    justify-content: flex-end;
+       
 }
 .nav__link {
     margin-left: 16px;
@@ -885,6 +892,15 @@ START / CALL TO ACTION ↓
     margin: 0 auto;
     
 }
+.start__container {
+    padding: 96px;
+    width: 100%;
+    background-color: rgb(100, 21, 255);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .call__to__action--container {
      display: flex;
     flex-wrap: wrap;
@@ -894,15 +910,22 @@ START / CALL TO ACTION ↓
     padding-top: 24px;
 }
 
-#call__to__action {
-   
-}
+
 .call__to__action--text {
     display: flex;
     flex-direction: row;
    justify-content: center;
-    border: 1px solid purple;
+   
+   
   
+}
+.logo__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 42px;
+    font-weight: 900;
 }
 .call__to__action--btns {
     display: flex;
@@ -910,9 +933,16 @@ START / CALL TO ACTION ↓
     gap: 16px;
 
 }
-.start {
-    
+.started {
+    background-color: coral;
 }
+.contact__us {
+    background-color: rgb(100, 21, 255);
+   border: 1px solid white;
+
+
+}
+
 
 /* 
 
@@ -1016,7 +1046,44 @@ color: white;
     font-size: 12px;  
     color: white;
 }
+.company__info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.company__info--title {
+    display: flex;
+    justify-content: center;
+}
+.company__logo {
+height: 32px;
+width: 32px;
+}
+.company__img {
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    align-items: center;
+}
+.copyrite {
+    color: white;
+}
+.media {
+    display: flex;
+    justify-content: flex-end;
 
+    padding-right: 25px;
+}
+ .fa-facebook {
+    color: white;
+ }
+ .fa-twitter {
+    color: white;
+
+ }
+ .fa-youtube {
+    color: white;
+ }
 
 
 /* 
