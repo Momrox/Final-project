@@ -260,6 +260,7 @@ HEADER / ABOUT US ↓
     width: 100%;
     max-width: 1200px;
     padding-bottom: 75px;
+    margin: 0 auto;
     
 }
 .row__landing--main {
@@ -471,6 +472,7 @@ quality
     max-width: 1200px;
     padding-top: 24px;
     gap: 750px;
+    margin: 0 auto;
 }
 
 .quality {
@@ -644,7 +646,11 @@ VALUES ↓
     font-weight: 900;
 }
 .fa-dollar-sign {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
     padding: 20px;
     border-radius: 50px;
     background-color: lightgreen;
@@ -652,6 +658,11 @@ VALUES ↓
         
 }
 .fa-suitcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
     padding: 20px;
     border-radius: 50px;
     background-color: lightcoral;
@@ -727,6 +738,7 @@ PRICING ↓
     width: 100%;
     max-width: 1200px;
     padding-top: 24px;
+    margin: 0 auto;
     
 }
 .row__plan {
@@ -819,7 +831,9 @@ max-width: 1200px;
     font-size: 16px;
     padding: 12px 6px 12px 0;
 }
-
+.business {
+    background-color: #6415ff;
+}
 
 .btn__small {
     background-color: turquoise;
