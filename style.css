@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
    padding: 0;
    margin: 0;
    box-sizing: border-box;
-   font-family: "Lato", sans-serif;
+   font-family:  'Inter', system-ui;
 color: #243e63;
+
 }
 body {
     max-width: 100vw;
@@ -77,9 +78,7 @@ button {
 
 
 
-ul {
-    display: flex;
-}
+
 
 li {
     list-style-type: none;
@@ -133,15 +132,16 @@ NAVBAR ↓
     text-decoration: none;
 }
 .company {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 900;
-    align-items: center;
-    
+    margin-left: 12px;
+    padding-bottom: 2px;  
     
 }
 .logo {
     width: 40px;
     height: 40px;
+    gap: 10px;
 
 }
 
@@ -204,7 +204,18 @@ NAVBAR ↓
     top: 24px;
     right: 18px;
 }
-
+.btn__get--started {
+    border-radius: 500px;
+    width: 140px;
+    height: 35px;
+    border: none;
+    background-color: #6415ff;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    
+    
+}
 
 .nav__links {
     display: flex;
@@ -220,6 +231,16 @@ NAVBAR ↓
     padding: 8px;
     
 }
+.nav__link--primary {
+    border-radius: 9999px;
+    color: #fff;
+    background-color: #6415ff;
+    line-height: 1.5;
+    border: none;
+    width: auto;
+    transition: all 300ms ease;
+}
+
 .nav__link:hover {
     text-decoration: underline;
 }
@@ -233,19 +254,25 @@ HEADER / ABOUT US ↓
 .landing__container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
     gap: 15px;
     width: 100%;
     max-width: 1200px;
+    padding-bottom: 75px;
+    
 }
 .row__landing--main {
-    padding: 64px;
     display: flex;
+    flex-direction: center;
+    align-items: center;
+    margin: 0 auto;
 }
 .landing__left--text {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 40%;
+   
     
    
 }
@@ -270,13 +297,7 @@ input {
     border-width: 2px;
     font-weight: 500;
 }
-.btn__get-started {
-    line-height: 1;
-    color: white;
-    background-color: #7342d6;
-    margin: 8px 0 8px;
-    padding: 16px;
-}
+
 
     
 
@@ -284,7 +305,7 @@ input {
     margin-top: 80px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     font-size: 12px;
 
     
@@ -292,15 +313,23 @@ input {
 
 
 .email__input {
+  
     font-size: 24px;
     
+}
+.first {
+    margin-left: 60px;
 }
 
 .right__img {
     display: flex;
     flex-direction: row;
-    width: calc(100% - 40%)
-          
+    margin-left: 75px;
+    width: 60%
+        
+}
+.customer__strip {
+    width: 100%;
 }
 
 
@@ -423,21 +452,25 @@ quality
 */
 
 #quality__work {
-   
+    display: flex;
+    
 }      
 .row__quality {
     display: flex;
+    flex-wrap: wrap;
+
     padding-top: 24px;
 }
 
 .quality__container {
      display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 35px;
     width: 100%;
     max-width: 1200px;
     padding-top: 24px;
+    gap: 750px;
 }
 
 .quality {
@@ -453,13 +486,14 @@ quality
     flex-direction: column;
     align-items: flex-start;
     width: 40%;
-    padding-right: 100px;
+  
     
 
     }
     .quality__para {
         font-size:18px;
         color: #7c8ba1;
+        
     }
 .btn {
     padding-top: 24px;
@@ -470,10 +504,10 @@ quality
 .img__quality--wrapper {
     display: flex;
    flex-direction: row;
-   align-items: start;
+   align-items: flex-end;
    width: 60%;
    gap: 32px;
-   padding-bottom: 20px;
+padding: 0 50px 0 50px;
          
 }
 .img {
@@ -610,8 +644,19 @@ VALUES ↓
     font-weight: 900;
 }
 .fa-dollar-sign {
-   
+    
+    padding: 20px;
+    border-radius: 50px;
+    background-color: lightgreen;
+    border: 1px solid white;  
         
+}
+.fa-suitcase {
+    padding: 20px;
+    border-radius: 50px;
+    background-color: lightcoral;
+    border: 1px solid white;  
+
 }
 .values {
     display: flex;
@@ -663,8 +708,9 @@ VALUES ↓
      gap: 32px;
 }
 
-
-
+.fa-suitcase {
+    border: ;
+}
 
 
 /*
@@ -687,7 +733,6 @@ PRICING ↓
 
      display: flex;
     flex-wrap: wrap;
-    
     gap: 10px;
     width: 100%;
     max-width: 1200px;
@@ -798,8 +843,9 @@ TESTIMONIALS ↓
 
 .testimonial__container {
      display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -850,7 +896,9 @@ TESTIMONIALS ↓
 }
 .testimonial__title--wrapper {
     display: flex;
-    flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
     width: 100%;
     max-width: 40%;
     align-items: start;
@@ -941,6 +989,8 @@ START / CALL TO ACTION ↓
 .call__to__action--container {
      display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     width: 100%;
     max-width: 1200px;
@@ -962,7 +1012,7 @@ START / CALL TO ACTION ↓
     align-items: center;
     color: white;
     font-size: 42px;
-    font-weight: 900;
+    font-weight: 500;
 }
 .call__to__action--btns {
     display: flex;
@@ -1108,8 +1158,8 @@ width: 32px;
 .media {
     display: flex;
     justify-content: flex-end;
-
     padding-right: 25px;
+
 }
  .fa-facebook {
     color: white;
