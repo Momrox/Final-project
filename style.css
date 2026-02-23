@@ -696,7 +696,8 @@ VALUES ↓
 }
 
 .btn {
-    padding-top: 24px;
+    width: 150px;
+    padding-top: 12px;
     font-size: 18px;
     
 }
@@ -719,9 +720,7 @@ VALUES ↓
      gap: 32px;
 }
 
-.fa-suitcase {
-    border: ;
-}
+
 
 
 /*
@@ -901,8 +900,7 @@ TESTIMONIALS ↓
 
 .testimonial__container {
      display: flex;
-     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     width: 100%;
     max-width: 1200px;
@@ -922,8 +920,7 @@ TESTIMONIALS ↓
 
 
 .img__testimonial--wrapper {
-    display: flex;
-    align-items: flex-start;
+     
     max-width: 100%;
     max-width: 1200px;
     padding-bottom: 24px;
@@ -931,7 +928,7 @@ TESTIMONIALS ↓
     
 }
 .love__us {
-    width: 40%;
+    width: 80%;
     height: 60%;
     margin: 24px 0 24px 0
 }
@@ -959,17 +956,9 @@ TESTIMONIALS ↓
    align-items: center;
     width: 100%;
     max-width: 40%;
-    align-items: start;
-    font-size: 24px;
-    gap: 24px;
-    color: #243e63;
   
 } 
-.testimonial__wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-} 
+
 .testimonial__details {
     display: flex;
 flex-direction: column;
@@ -1036,13 +1025,14 @@ START / CALL TO ACTION ↓
     
 }
 .start__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 96px;
     width: 100%;
     background-color: rgb(100, 21, 255);
     border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 .call__to__action--container {
      display: flex;
@@ -1207,7 +1197,7 @@ width: 32px;
 .company__img {
     color: white;
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 700;
     align-items: center;
 }
 .copyrite {
@@ -1217,17 +1207,43 @@ width: 32px;
     display: flex;
     justify-content: flex-end;
     padding-right: 25px;
+    gap: 10px;
 
 }
- .fa-facebook {
-    color: white;
+ .fa-facebook-f {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: white;
+    color: #4a5568;
+    
  }
  .fa-twitter {
-    color: white;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: white;
+    color: #4a5568;
 
  }
  .fa-youtube {
-    color: white;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: white;
+    color: #4a5568;
  }
 
 
