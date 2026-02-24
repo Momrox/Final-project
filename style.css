@@ -631,6 +631,7 @@ padding: 100px 0 100px 0;
     margin: 0 auto;
 }
 .easy__info {
+    text-align: left;
      font-size: 48px;
     font-weight: 900;
 }
@@ -644,28 +645,42 @@ padding: 100px 0 100px 0;
    width: 100%;    
 
 }
-.step__title {
+
+.number {
+
+    color: #cbd5e0;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
+    margin-right: 25px;
     
-    align-items: start;
-    font-size: 30px;
-       color: #243e63;
-  
+}
+.step__action {
+    font-size: 20px;
+    font-weight: 600;
+    color: #243e63;
+    line-height: 1;
+}
+.step__description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 50%;
+   padding-left: 75px;
+
 } 
 .step__description {
-    display: flex;   
+    display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    width: 60%;
-    max-width: calc(100% / 2);
-   padding-left: 100px;
-   font: 600;
+}
 
-    
-} 
 .step__para {
-   font-weight: 600;
-    text-align: start;
-   color: #7c8ba1;
+    
+    font-size: 14px;
+   font-weight: 500;
+   margin-top: 12px;
+   line-height: 2;
+   color: #718096;
 }
 
 .easy__steps--wrapper {
@@ -675,12 +690,11 @@ padding: 100px 0 100px 0;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    font-size: 30px;
+    color: #243e63;
    
 }  
-.grey {
-    color: #9f9c9c;
-    
-} 
+
 
 
 
@@ -1037,7 +1051,7 @@ TESTIMONIALS ↓
 .love__us {
     width: 80%;
     height: 60%;
-    margin: 24px 0 24px 0
+    
 }
 
 .testimonial__wrapper {
@@ -1112,6 +1126,48 @@ color: #4a5568;
     color: #7c8ba1;
 
 }
+.btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.fa-arrow-left {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6415ff;
+    height: 25px;
+    width: 25px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: #cbd5e0;
+    border: 1px solid white;
+}
+.fa-arrow-right {
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6415ff;
+    height: 25px;
+    width: 25px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: #cbd5e0;
+    border: 1px solid white;
+}
+.divider {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-right-width: 1px;
+    width: 0.5px;
+    background-color: #e5e7eb;
+    height: 20px;
+}
+
+
+
 
 
 /* 
