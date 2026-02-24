@@ -538,7 +538,6 @@ quality
     
 }
 .quality__text {
-    
     width: 30%;  
     margin-right: 64px;
 
@@ -1056,10 +1055,8 @@ TESTIMONIALS ↓
 
 .testimonial__wrapper {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: 16px;
-    width: 60%;
     max-width: 1200px;
     padding-top: 24px;
 }
@@ -1083,7 +1080,8 @@ TESTIMONIALS ↓
 .testimonial__details {
     display: flex;
 flex-direction: column;
-    gap: 15px;
+
+    
 }
 .testimonial__description {
     display: flex;   
@@ -1122,6 +1120,7 @@ color: #4a5568;
 
 }
 .testimonial__role {
+    
     font-size: 18px;
     color: #7c8ba1;
 
@@ -1130,7 +1129,8 @@ color: #4a5568;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+  
 
 }
 .fa-arrow-left {
@@ -1141,7 +1141,7 @@ color: #4a5568;
     height: 25px;
     width: 25px;
     padding: 20px;
-    border-radius: 40px;
+    border-radius: 50px;
     background-color: #cbd5e0;
     border: 1px solid white;
 }
@@ -1153,7 +1153,7 @@ color: #4a5568;
     height: 25px;
     width: 25px;
     padding: 20px;
-    border-radius: 40px;
+    border-radius: 50px;
     background-color: #cbd5e0;
     border: 1px solid white;
 }
@@ -1195,6 +1195,7 @@ START / CALL TO ACTION ↓
     width: 100%;
     background-color: rgb(100, 21, 255);
     border-radius: 8px;
+    margin-left: 300px;
     
 }
 .call__to__action--container {
@@ -1233,6 +1234,7 @@ START / CALL TO ACTION ↓
 }
 .started {
     background-color: coral;
+    
 }
 .contact__us {
     background-color: rgb(100, 21, 255);
