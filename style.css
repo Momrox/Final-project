@@ -241,8 +241,10 @@ NAVBAR ↓
     background-color: #6415ff;
     line-height: 1.5;
     border: none;
-    width: auto;
+    width: 100px;
     transition: all 300ms ease;
+    display: flex;
+    justify-content: center;
 }
 
 .nav__link:hover {
@@ -302,6 +304,7 @@ HEADER / ABOUT US ↓
 .email__input {
     padding: 20px 180px 20px 32px;
     width: 25%;
+    border: #a0aec0 solid .5px;
     border-radius: 500px;
     font-size: 18px;
     font-weight: 500;
@@ -310,12 +313,13 @@ HEADER / ABOUT US ↓
     
 }
 
+
 .input__wrapper .wrapper__btn {
     background-color: #6415ff;
     margin: 12px;
     height: 42px;
    border-radius: 500px;
-    width: 160px;
+    width: 140px;
     border: none;
     font-weight: 700;
     font-size: 16px;
@@ -657,6 +661,7 @@ padding: 100px 0 100px 0;
     justify-content: flex-start;
     width: 50%;
    padding-left: 75px;
+   padding: 32 0;
 
 } 
 .step__description {
@@ -674,17 +679,22 @@ padding: 100px 0 100px 0;
 }
 
 .easy__steps--wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+ 
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    margin-left: 25px;
     font-size: 30px;
     color: #243e63;
    
 }  
-.steps--list {
+.number {
+    margin-left: -65px;
+    color: #cbd5e0;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
+    
     
 }
 
@@ -733,6 +743,8 @@ VALUES ↓
   
     font-size: 48px;
     font-weight: 900;
+    
+    
 }
 .fa-dollar-sign {
     display: flex;
@@ -761,8 +773,8 @@ VALUES ↓
 .values {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    width: 40%;
+    align-items: center;
+    width: 48%;
 
     }
     .affordable__txt {
@@ -869,6 +881,7 @@ PRICING ↓
     margin: 0 25px 25px 25px;
     
     
+    
 }
 .pricing {
     margin-bottom: 25px;
@@ -892,14 +905,33 @@ max-width: 1200px;
 }
 
 
-.plan__top {
+.plan__top1 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding-top: 40px;
+    padding-top: 08px;
+    border: .5px solid turquoise;
+    background-color: turquoise;
+    border-radius: 10px;
+   
     
+    
+
+   
 }
+.plan__top3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 08px;
+    border: .5px solid #f56565;
+    background-color: #f56565;
+     border-radius: 10px;
+   
+}
+
 .plan__name {
     font-size: 30px;
     font-weight: bold;
@@ -921,6 +953,7 @@ max-width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .plan__types {
 
@@ -938,25 +971,27 @@ max-width: 1200px;
 .btn__today {
     background-color: white;
     color: #7342d6;
-    border: black solid 1px;
+    border: white solid 1px;
     font-weight: bold;
 }
 .btn__tomorrow {
-    background-color: lightcoral;
+    background-color: #f56565;
+    
 }
-.plans__2 {
+.plans__top2 {
      display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    width: 100%;
-    max-width: 1200px;
+    width: 100%;    
+    max-width:  1200px;
     margin: 0 auto;
-    border: 1px solid black;
+    border: .5px solid black;
     border-radius: 10px;
-    margin-bottom: 15px;
-    margin-right: 20px;
     background-color: #6415ff;
+   
+
+   
     
    
 }
@@ -964,6 +999,7 @@ max-width: 1200px;
     font-size: 30px;
     font-weight: bold;
     color: white;
+    
 
 }
 .plan__price2 {
@@ -991,6 +1027,9 @@ max-width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.lightgrey {
+    color: #7c8ba1;
 }
 
 /* 
@@ -1225,13 +1264,17 @@ START / CALL TO ACTION ↓
 
 }
 .started {
-    background-color: coral;
-    
+    background-color: #f56565;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
 }
 .contact__us {
     background-color: rgb(100, 21, 255);
    border: 1px solid white;
-
+   width: 150px;
+   align-items: center;
+   justify-content: center;
 
 }
 
