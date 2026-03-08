@@ -804,7 +804,7 @@ VALUES ↓
  
 .value__text {
     font-weight: 400;
-    max-width: 40%;
+    max-width: 60%;
     
 }
 
@@ -1069,6 +1069,7 @@ TESTIMONIALS ↓
 .clients {
       font-size: 48px;
     font-weight: 900;
+    margin-left: -50px;
 }
 
 .testimonial__info {
@@ -1118,6 +1119,7 @@ TESTIMONIALS ↓
 .testimonial__details {
     display: flex;
 flex-direction: column;
+margin-left: 25px;
 
     
 }
@@ -1166,11 +1168,8 @@ color: #4a5568;
 .btns {
     display: flex;
     flex-direction: row;
-    align-items: center;
-  
-    
-  
-
+    margin-left: 150px;
+     
 }
 .fa-arrow-left {
      display: flex;
