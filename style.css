@@ -582,13 +582,13 @@ padding: 0 50px 0 50px;
    z-index: 1;
 }
 .quality__grid {
-    transform: translateX(50%); translateY(50%) scaleX(1) scaleY(1);
+    transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
     width: 80px;
     height: 80px;
     position: absolute;
     right: 0px;
     bottom: 0px;
-    fill: rgb(100, 21, 255)
+    fill: rgb(100, 21, 255);
     --tw-text-opacity: 1;
     color: rgba(100, 21, 255, var(--tw-text-opacity));
     z-index: 0;
@@ -724,7 +724,6 @@ VALUES ↓
     max-width: 1200px;
     margin: 0 auto;
 
-
 }  
    
 
@@ -782,17 +781,18 @@ VALUES ↓
     align-items: center;
     width: 48%;
 
-    }
-    .affordable__txt {
+    }   
+
+.affordable__txt {
         font-size: 20px;
         font-weight: bold;
         color: #243e63;
         padding: 18px 0 18px 0;
     }
-   .value__info {
+.value__info {
     letter-spacing: 1.6px;
     margin-bottom: 25px;
-   margin-left: -500px;
+    margin-left: -500px;
    }
 
     .value__para {
@@ -819,7 +819,7 @@ VALUES ↓
  
 .img__value--wrapper {
     display: flex;
-    flex-direction: row
+    flex-direction: row;
    align-items: center;
    width: calc(60% / 2);
    padding-bottom: 40px;
@@ -887,9 +887,13 @@ PRICING ↓
     border: 1px solid black;
     border-radius: 10px;
     margin: 0 25px 25px 25px;
-    
-    
-    
+    padding: 20px;
+     
+}
+
+.plans__business {
+    background-color: #6415ff;
+    border: 1px solid black;
 }
 .pricing {
     margin-bottom: 25px;
@@ -922,6 +926,8 @@ max-width: 1200px;
     border: .5px solid turquoise;
     background-color: turquoise;
     border-radius: 10px;
+    margin-top: -26px;
+    margin-left: 45px;
    
     
     
@@ -933,10 +939,13 @@ max-width: 1200px;
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding-top: 08px;
+    padding-top: 8px;
+    margin-top: -26px;
+    margin-left: 45px;
     border: .5px solid #f56565;
     background-color: #f56565;
-     border-radius: 10px;
+     border-radius: 5px;
+     
    
 }
 
@@ -994,7 +1003,7 @@ max-width: 1200px;
     width: 100%;    
     max-width:  1200px;
     margin: 0 auto;
-    border: .5px solid black;
+    
     border-radius: 10px;
     background-color: #6415ff;
    
