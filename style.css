@@ -916,7 +916,7 @@ max-width: 1200px;
 
 }
 
-
+/*
 .plan__top1 {
     display: flex;
     justify-content: center;
@@ -928,12 +928,10 @@ max-width: 1200px;
     border-radius: 10px;
     margin-top: -26px;
     margin-left: 45px;
-   
-    
-    
-
-   
+       
 }
+*/
+/*
 .plan__top3 {
     display: flex;
     justify-content: center;
@@ -944,9 +942,18 @@ max-width: 1200px;
     margin-left: 45px;
     border: .5px solid #f56565;
     background-color: #f56565;
-     border-radius: 5px;
-     
+     border-radius: 5px; 
    
+}
+*/
+.plan__types--monthly {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 60px;
 }
 
 .plan__name {
@@ -970,12 +977,21 @@ max-width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    margin: 0 auto;
+
     
 }
 .plan__types {
 
     font-size: 20px;
     font-weight: 700;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
 .plan__type {
     font-size: 16px;
@@ -984,16 +1000,21 @@ max-width: 1200px;
 
 .btn__small {
     background-color: turquoise;
+    width: 150px;
+    justify-content: center;
 }
 .btn__today {
     background-color: white;
     color: #7342d6;
     border: white solid 1px;
     font-weight: bold;
+    width: 150px;
+    justify-content: center;
 }
 .btn__tomorrow {
-    background-color: #f56565;
-    
+    background-color: #f07777;
+    width: 150px;
+    justify-content: center;
 }
 .plans__top2 {
      display: flex;
@@ -1039,6 +1060,10 @@ max-width: 1200px;
     font-size: 16px;
     padding: 12px 6px 12px 0;
     color: white;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .plan__middle2 {
     display: flex;
