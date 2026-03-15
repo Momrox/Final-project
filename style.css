@@ -512,6 +512,7 @@ quality
 #quality__work {
     display: flex;
     padding: 96 0;
+    width: 100%;
     
 }      
 .quality__container {
@@ -545,18 +546,18 @@ quality
     margin-right: 64px;
 
     }
-     .quality__info {
+ .quality__info {
     
     font-size: 48px;
     font-weight: 900;
     margin-right: 31px;
 
      }
-     .quality__stuff {
+ .quality__stuff {
         letter-spacing: 1.6px;
     margin-bottom: 25px;
      }
-    .quality__para {
+ .quality__para {
         font-size:18px;
         color: #7c8ba1;
         margin-bottom: 32px;
@@ -573,28 +574,27 @@ quality
     display: flex;
    flex-direction: row;
    align-items: flex-end;
-   width: 60%;
-   gap: 32px;
+   width: 55%;
+   gap: px;
 padding: 0 50px 0 50px;
          
 }
 .img {
    z-index: 1;
 }
-.quality__grid {
-    transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
+.work__grid {
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(545%);
+    transform: translateY(1140px);
+    margin-left: 390px;
     width: 80px;
     height: 80px;
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    fill: rgb(100, 21, 255);
-    --tw-text-opacity: 1;
-    color: rgba(100, 21, 255, var(--tw-text-opacity));
-    z-index: 0;
-    display: block;
-
-
+    opacity: 0.8;
+    z-index: -10;
+    color: rgb(100, 21, 255);
+    fill: currentColor;
 }
 
 
@@ -694,13 +694,29 @@ padding: 100px 0 100px 0;
    
 }  
 .number {
-    margin-left: -75px;
+    transform: translateY(40px);
+    margin-left: -70px;
     color: #cbd5e0;
     font-size: 36px;
     font-weight: 600;
     line-height: 1;
     
     
+}
+
+.steps__grid {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(550);
+    transform: translateY(1880px);
+    margin-left: -365px;
+    width: 128px;
+    height: 128px;
+    opacity: .10;
+    z-index: -10;
+    background-color: rgb(100, 21, 255);
+    fill: currentColor;
 }
 
 
