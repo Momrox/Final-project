@@ -594,7 +594,7 @@ padding: 0 50px 0 50px;
     opacity: 0.8;
     z-index: -10;
     color: rgb(100, 21, 255);
-    fill: currentColor;
+    fill: rgb(100, 21, 255);
 }
 
 
@@ -715,8 +715,8 @@ padding: 100px 0 100px 0;
     height: 128px;
     opacity: .10;
     z-index: -10;
-    background-color: rgb(100, 21, 255);
-    fill: currentColor;
+    color: rgb(100, 21, 255);
+    fill: rgb(100, 21, 255);
 }
 
 
@@ -905,6 +905,7 @@ PRICING ↓
     border-radius: 10px;
     margin: 0 25px 25px 25px;
     padding: 20px;
+    background-color: white;
      
 }
 
@@ -992,6 +993,7 @@ max-width: 1200px;
 .plan__name {
     font-size: 30px;
     font-weight: bold;
+    
     
 }
 .plan__price {
@@ -1106,7 +1108,23 @@ max-width: 1200px;
 .lightgrey {
     color: #7c8ba1;
 }
+.price__blob {
+    transform: translateX(-260px) translateY(3400px) scaleX(1) scaleY(1);
+    margin-right: 1175px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    opacity: .2;
+    z-index: -1;
+    fill: pink;
 
+    
+}
+.price__blob g path {
+    fill: pink
+}
 /* 
 
 TESTIMONIALS ↓
@@ -1526,6 +1544,7 @@ width: 32px;
     background-color: white;
     color: #4a5568;
  }
+
 
 
 /* 
