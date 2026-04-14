@@ -901,6 +901,7 @@ margin: 0 auto;
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    
 }
 
 .plan {
@@ -920,11 +921,74 @@ margin: 0 auto;
     color: rgb(26, 32, 44);
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, 
     rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border: 1px solid rgb(160, 174, 192);
+    
      
 }
+.plan:nth-child(odd)
+.plan__name {
+    font-weight: bold;
+    color: #1a202c;
+    line-height: 1.625;
 
-.plan:nth-child(2) {
-    background: linear-gradient(135deg, rgb(76, 81, 191 0%, rgb(102, 126, 234) 100%));
+}
+.plan:nth-child(1)
+.plan__duration {
+    color: #a0aec0;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    line-height: 1.625;
+}
+
+.plan:nth-child(1)
+.plan__middle {
+    border-top: 2px solid rgb(229, 231, 235);
+    border-bottom: 2px solid rgb(229, 231, 235);
+    
+}
+
+
+
+.plan:nth-child(2) 
+.plan__middle{
+    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    border-top: 2px solid rgb(102, 126, 234);
+    border-bottom:  2px solid rgb(102, 126, 234);
+}
+.plan:nth-child(2)
+.plan__top {
+    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    
+}
+
+.plan:nth-child(2)
+.plan__name {
+    color: #f7fafc;
+}
+.plan:nth-child(2)
+.plan__price {
+    color: #f7fafc;
+}
+.plan:nth-child(2)
+.plan__duration {
+    color: #f7fafc;
+}
+
+
+.plan:nth-child(2)
+.plan__target {
+    color: #f7fafc;
+}
+
+.plan:nth-child(2) 
+.plan__feature {
+    color: #f7fafc;
+}
+.plan:nth-child(2)
+.plan__bottom {
+   background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+  
 }
 
 .plan__stripe {
@@ -979,9 +1043,11 @@ line-height: 1.625;
     padding: 2rem;
     
 }
-.plan:nth-child(3) .plan__stripe {
+.plan:nth-child(3) 
+.plan__stripe {    
     color: #f7fafc;
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    
 }
 
 .plan__target {
@@ -990,6 +1056,7 @@ line-height: 1.625;
     font-weight: 700;
     line-height: 1.5;
     letter-spacing: 0.025em;
+    
     
 }
 
@@ -1007,6 +1074,7 @@ line-height: 1.625;
     padding-right: 4rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    
 }
 
 .btn__small {
