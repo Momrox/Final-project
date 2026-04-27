@@ -24,7 +24,9 @@ margin: 0 auto;
     max-width: 1024px;
     margin: 0 auto;
 }
-
+.container {
+    padding: 96px 0
+}
 .purple {
     color: #6415ff;
 }
@@ -43,10 +45,10 @@ h1 {
     font-size: 48px;
     color: #1a202c;
     margin-bottom: 16px;
-    font-weight: 700;
-
-    
+   font-weight: 700;
+   
 }
+
 h2 {
    display: block;
    font-size: 1.5em;
@@ -57,6 +59,7 @@ h2 {
    font-weight: bold;
    unicode-bidi: isolate;
       }
+
  h3 {
     font-size: 32px;
     color: #243e63;
@@ -99,26 +102,16 @@ NAVBAR ↓
     padding: 0 32;
 }
 
-.nav {
+nav {
 padding-top: 32px;
 display: flex;
 
 }
-.landing {
-   padding: 0 32px;
- 
-    
-}
 .nav__row {
     display: flex;
-   justify-content: space-between;
-    
+    justify-content: space-between;
 }
-.row {
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-}
+
 .nav__logo {
     display: flex;
     align-items: center;
